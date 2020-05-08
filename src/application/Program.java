@@ -26,8 +26,12 @@ public class Program {
 				+ "git add .\nDepois commitar com o comando\n"
 				+ "git commit -m \"nome da alteração\"\nPara enviar o commit para o github use o comando\n"
 				+ "git push");
+
+		System.out.println("-----------------------------------------------------------");
 		
-		System.out.println("entrar na pasta do projeto");
+		System.out.println("Para retornar ao status do ultimo commit comandos\n"
+				+ "git clean -df\n"
+				+ "git checkout -- .");
 	}
 
 }
